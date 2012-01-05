@@ -1,0 +1,191 @@
+Tid3
+v7
+r0
+t347443934.079983
+cCheck dependencies
+cCompileC build/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.o /Users/matthias/id3/id3_xcode/../id3.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
+c000000004AC59DB70000000000000C7E
+t1254464951
+s3198
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
+c000000004AC59DB70000000000003197
+t1254464951
+s12695
+
+N/Users/matthias/id3/build/libid3-3.8.3.dylib
+c000000004E30A71D0000000000044618
+t1311811357
+s280088
+
+N/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3.h
+c000000003E614EE400000000000021E8
+t1046564580
+s8680
+i"id3/globals.h"
+
+N/Users/matthias/id3/id3_xcode/../../src/pd/src/m_pd.h
+c000000004A0345790000000000005D91
+t1241728377
+s23953
+i<stddef.h>
+
+N/Users/matthias/id3/id3_xcode/../build/libid3-3.8.3.dylib
+c000000004F055B3900000000000856E0
+t1325751097
+s546528
+
+N/Users/matthias/id3/id3_xcode/../id3.c
+c000000004DEA1A670000000000003D0B
+t1307187815
+s15627
+i"m_pd.h"
+i<id3.h>
+i<stdio.h>
+
+N/Users/matthias/id3/id3_xcode/../libid3-3.8.3.dylib
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin
+t1325751134
+s19136
+
+N/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.LinkFileList
+c000000004F055B5D000000000000005E
+t1325751133
+s94
+
+N/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.o
+t1325751134
+s23064
+
+N/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/x86_64/id3.LinkFileList
+c000000004EA0AE650000000000000060
+t1319153253
+s96
+
+N/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/x86_64/id3.o
+t1319153372
+s29368
+
+N/Users/matthias/id3lib-3.8.3/include/id3/globals.h
+c000000003E614EE4000000000000660A
+t1046564580
+s26122
+i<stdlib.h>
+i"id3/sized_types.h"
+
+N/Users/matthias/id3lib-3.8.3/include/id3/sized_types.h
+c000000003E614EE40000000000000A90
+t1046564580
+s2704
+i<limits.h>
+
+N/opt/local/lib/libid3-3.8.3.dylib
+c000000004E30A71D0000000000044618
+t1311811357
+s280088
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies347443933#347443933#0(0"0(0#1#0"8616851872#0"0#
+
+CCompileC build/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.o /Users/matthias/id3/id3_xcode/../id3.c normal i386 c com.apple.compilers.gcc.4_2
+s347443933.997340
+e347443934.062803
+r1
+xCompileC
+xbuild/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.o
+x/Users/matthias/id3/id3_xcode/../id3.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_open':
+o/Users/matthias/id3/id3_xcode/../id3.c:145: warning: unused variable 'id3_field'
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_get':
+o/Users/matthias/id3/id3_xcode/../id3.c:225: warning: unused variable 'string2'
+o/Users/matthias/id3/id3_xcode/../id3.c:225: warning: unused variable 'string1'
+o/Users/matthias/id3/id3_xcode/../id3.c:225: warning: unused variable 'string'
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_info':
+o/Users/matthias/id3/id3_xcode/../id3.c:434: warning: unused variable 'id_name'
+o/Users/matthias/id3/id3_xcode/../id3.c:432: warning: unused variable 'string2'
+o/Users/matthias/id3/id3_xcode/../id3.c:432: warning: unused variable 'string1'
+o/Users/matthias/id3/id3_xcode/../id3.c:432: warning: unused variable 'string'
+o/Users/matthias/id3/id3_xcode/../id3.c: At top level:
+o/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3/globals.h:542: warning: 'ID3_v1_genre_description' defined but not used
+lSLF07#2@46"Compile /Users/matthias/id3/id3_xcode/../id3.c347443933#347443934#0(1010"/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_open':/Users/matthias/id3/id3_xcode/../id3.c:145: warning: unused variable 'id3_field'/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_get':/Users/matthias/id3/id3_xcode/../id3.c:225: warning: unused variable 'string2'/Users/matthias/id3/id3_xcode/../id3.c:225: warning: unused variable 'string1'/Users/matthias/id3/id3_xcode/../id3.c:225: warning: unused variable 'string'/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_info':/Users/matthias/id3/id3_xcode/../id3.c:434: warning: unused variable 'id_name'/Users/matthias/id3/id3_xcode/../id3.c:432: warning: unused variable 'string2'/Users/matthias/id3/id3_xcode/../id3.c:432: warning: unused variable 'string1'/Users/matthias/id3/id3_xcode/../id3.c:432: warning: unused variable 'string'/Users/matthias/id3/id3_xcode/../id3.c: At top level:/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3/globals.h:542: warning: 'ID3_v1_genre_description' defined but not used10(22@27"Unused variable 'id3_field'347443934#64#81#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#145#0#145#0#19"unused variable '*'0(22@25"Unused variable 'string2'347443934#208#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#225#0#225#0#19"unused variable '*'0(22@25"Unused variable 'string1'347443934#287#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#225#0#225#0#19"unused variable '*'0(22@24"Unused variable 'string'347443934#366#78#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#225#0#225#0#19"unused variable '*'0(22@25"Unused variable 'id_name'347443934#508#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#434#0#434#0#19"unused variable '*'0(22@25"Unused variable 'string2'347443934#587#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#432#0#432#0#19"unused variable '*'0(22@25"Unused variable 'string1'347443934#666#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#432#0#432#0#19"unused variable '*'0(22@24"Unused variable 'string'347443934#745#78#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#432#0#432#0#19"unused variable '*'0(23@13"At top level:347443934#823#54#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c328880615#0#0#0#0#0"0(22@47"'ID3_v1_genre_description' defined but not used347443934#877#133#0(6@70"/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3/globals.h68257380#542#0#542#0#24"'*' defined but not used0(0#0#38"/Users/matthias/id3/id3_xcode/../id3.c8615490976#1175"    cd /Users/matthias/id3/id3_xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-generated-files.hmap -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-own-target-headers.hmap -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-all-target-headers.hmap -iquote /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-project-headers.hmap -F/Users/matthias/id3/id3_xcode/build/Debug -I/Users/matthias/id3/id3_xcode/build/Debug/include -I/Users/matthias/id3lib-3.8.3/include -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/DerivedSources/i386 -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/DerivedSources -c /Users/matthias/id3/id3_xcode/../id3.c -o /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.o0#
+
+CCompileC build/id3_xcode.build/Debug/id3.build/Objects-normal/x86_64/id3.o /Users/matthias/id3/id3_xcode/../id3.c normal x86_64 c com.apple.compilers.gcc.4_2
+s340846172.932212
+e340846172.993839
+r1
+xCompileC
+xbuild/id3_xcode.build/Debug/id3.build/Objects-normal/x86_64/id3.o
+x/Users/matthias/id3/id3_xcode/../id3.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_open':
+o/Users/matthias/id3/id3_xcode/../id3.c:144: warning: unused variable 'id3_field'
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_get':
+o/Users/matthias/id3/id3_xcode/../id3.c:218: warning: unused variable 'string2'
+o/Users/matthias/id3/id3_xcode/../id3.c:218: warning: unused variable 'string1'
+o/Users/matthias/id3/id3_xcode/../id3.c:218: warning: unused variable 'string'
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_set':
+o/Users/matthias/id3/id3_xcode/../id3.c:292: warning: unused variable 'text'
+o/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_info':
+o/Users/matthias/id3/id3_xcode/../id3.c:370: warning: unused variable 'id_name'
+o/Users/matthias/id3/id3_xcode/../id3.c:368: warning: unused variable 'string2'
+o/Users/matthias/id3/id3_xcode/../id3.c:368: warning: unused variable 'string1'
+o/Users/matthias/id3/id3_xcode/../id3.c:368: warning: unused variable 'string'
+o/Users/matthias/id3/id3_xcode/../id3.c: At top level:
+o/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3/globals.h:542: warning: 'ID3_v1_genre_description' defined but not used
+lSLF07#2@46"Compile /Users/matthias/id3/id3_xcode/../id3.c340846172#340846172#0(1149"/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_open':/Users/matthias/id3/id3_xcode/../id3.c:144: warning: unused variable 'id3_field'/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_get':/Users/matthias/id3/id3_xcode/../id3.c:218: warning: unused variable 'string2'/Users/matthias/id3/id3_xcode/../id3.c:218: warning: unused variable 'string1'/Users/matthias/id3/id3_xcode/../id3.c:218: warning: unused variable 'string'/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_set':/Users/matthias/id3/id3_xcode/../id3.c:292: warning: unused variable 'text'/Users/matthias/id3/id3_xcode/../id3.c: In function 'id3_info':/Users/matthias/id3/id3_xcode/../id3.c:370: warning: unused variable 'id_name'/Users/matthias/id3/id3_xcode/../id3.c:368: warning: unused variable 'string2'/Users/matthias/id3/id3_xcode/../id3.c:368: warning: unused variable 'string1'/Users/matthias/id3/id3_xcode/../id3.c:368: warning: unused variable 'string'/Users/matthias/id3/id3_xcode/../id3.c: At top level:/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3/globals.h:542: warning: 'ID3_v1_genre_description' defined but not used11(22@27"Unused variable 'id3_field'340846172#64#81#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#144#0#144#0#19"unused variable '*'0(22@25"Unused variable 'string2'340846172#208#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#218#0#218#0#19"unused variable '*'0(22@25"Unused variable 'string1'340846172#287#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#218#0#218#0#19"unused variable '*'0(22@24"Unused variable 'string'340846172#366#78#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#218#0#218#0#19"unused variable '*'0(22@22"Unused variable 'text'340846172#507#76#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#292#0#292#0#19"unused variable '*'0(22@25"Unused variable 'id_name'340846172#647#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#370#0#370#0#19"unused variable '*'0(22@25"Unused variable 'string2'340846172#726#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#368#0#368#0#19"unused variable '*'0(22@25"Unused variable 'string1'340846172#805#79#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#368#0#368#0#19"unused variable '*'0(22@24"Unused variable 'string'340846172#884#78#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#368#0#368#0#19"unused variable '*'0(23@13"At top level:340846172#962#54#0(6@38"/Users/matthias/id3/id3_xcode/../id3.c340846170#0#0#0#0#0"0(22@47"'ID3_v1_genre_description' defined but not used340846172#1016#133#0(6@70"/Users/matthias/id3/id3_xcode/../../id3lib-3.8.3/include/id3/globals.h68257380#542#0#542#0#24"'*' defined but not used0(0#0#38"/Users/matthias/id3/id3_xcode/../id3.c8604494176#1181"    cd /Users/matthias/id3/id3_xcode    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-generated-files.hmap -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-own-target-headers.hmap -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-all-target-headers.hmap -iquote /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/id3-project-headers.hmap -F/Users/matthias/id3/id3_xcode/build/Debug -I/Users/matthias/id3/id3_xcode/build/Debug/include -I/Users/matthias/id3lib-3.8.3/include -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/DerivedSources/x86_64 -I/Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/DerivedSources -c /Users/matthias/id3/id3_xcode/../id3.c -o /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/x86_64/id3.o0#
+
+CLd /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin normal i386
+s347443934.062896
+e347443934.079929
+r1
+xLd
+x/Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin
+xnormal
+xi386
+lSLF07#2@60"Link /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin347443934#347443934#0(0"0(0#0#0"8615199168#677"    cd /Users/matthias/id3/id3_xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/matthias/id3/id3_xcode/build/Debug -L/Users/matthias/id3/id3_xcode/.. -L/Users/matthias/id3/id3_xcode/../build -F/Users/matthias/id3/id3_xcode/build/Debug -filelist /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/i386/id3.LinkFileList -install_name /usr/local/lib/id3.pd_darwin -mmacosx-version-min=10.6 -undefined dynamic_lookup -lid3-3.8.3 -single_module -compatibility_version 1 -current_version 1 -o /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin0#
+
+CLd /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin normal x86_64
+s340846172.993939
+e340846173.100784
+r1
+xLd
+x/Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin
+xnormal
+xx86_64
+lSLF07#2@60"Link /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin340846172#340846173#0(0"0(0#0#0"8602352768#593"    cd /Users/matthias/id3/id3_xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/matthias/id3/id3_xcode/build/Debug -F/Users/matthias/id3/id3_xcode/build/Debug -filelist /Users/matthias/id3/id3_xcode/build/id3_xcode.build/Debug/id3.build/Objects-normal/x86_64/id3.LinkFileList -install_name /usr/local/lib/id3.pd_darwin -mmacosx-version-min=10.6 -undefined dynamic_lookup -single_module -compatibility_version 1 -current_version 1 -o /Users/matthias/id3/id3_xcode/build/Debug/id3.pd_darwin0#
+

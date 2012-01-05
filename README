@@ -1,0 +1,43 @@
+
+id3 (0.1 very alpha version...)
+======================================
+pure data external to read and write ID3 tags from/to mp3 files
+
+* depends on id3lib
+
+(C) 2011 by Matthias Kronlachner
+__________________________________________________________
+
+::INSTALL::
+tested under Ubuntu 10.10 Linux and Mac OS X 10.6.8
+
+OSX: ready to use binaries in build folder
+
+
+*	get/install pd (http://puredata.info)
+
+*	get and install id3lib
+	http://id3lib.sourceforge.net/
+
+	or sudo apt-get install libid3-dev 
+
+*	edit Makefile for right path to pd sources
+
+*	#.../id3> make
+
+
+*	have a look at the id3-help.pd file!
+
+
+ ________________
+:::THINGS TO DO:::
+
+*		currently just title,artist,album,comment are supportet to write.
+		but you can read all included tags of an mp3 file as raw data
+
+*		problems with unicode tags??
+
+
+questions: m.kronlachner@gmail.com
+
+
